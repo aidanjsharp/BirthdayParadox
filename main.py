@@ -5,8 +5,11 @@ runs = 1000000
 
 def main(runs):
     total = 0
+    runn = 0
     for i in range(runs):
         total = total + oneSim()
+        runn += 1
+        print("Percent done:", round((runn/runs) *100) , "%")
 
     print("Average number of tries until there is a matching birthday:", total/runs)
 
