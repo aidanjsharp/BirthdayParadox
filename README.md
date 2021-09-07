@@ -12,3 +12,5 @@ In fact, the birthday paradox can be analyzed approximately using Bernoulli vari
 
 - value 1 with probability 𝑝 (for some 𝑝>0) and
 - value 0 otherwise.
+
+"runs" variable determines how many times the simulation... runs
