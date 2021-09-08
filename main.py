@@ -9,7 +9,7 @@ def main(runs):
     for i in range(runs):
         total = total + oneSim()
         runn += 1
-        print("Percent done:", round((runn/runs) *100) , "%")
+        print("Percent done:", round((runn/runs) *100, 1) , "%")
 
     print("Average number of tries until there is a matching birthday:", total/runs)
 
